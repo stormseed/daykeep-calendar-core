@@ -1,0 +1,63 @@
+{
+  "name": "daykeep-calendar-core",
+  "version": "1.0.0-beta.1",
+  "productName": "Daykeep Calendar",
+  "description": "A full display calendar for multiple Vue.js frameworks",
+  "keywords": [
+    "vue",
+    "calendar"
+  ],
+  "bugs": "https://github.com/stormseed/quasar-calendar/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormseed/quasar-calendar.git"
+  },
+  "homepage": "https://github.com/stormseed/quasar-calendar",
+  "author": "Chris Benjamin <cbenjamin@stormseed.com>",
+  "license": "MIT",
+  "main": "component/index.js",
+  "files": [
+    "component/index.js",
+    "component/calendar/*js",
+    "component/calendar/*vue",
+    "component/calendar/*styl",
+    "demo/mixins/index.js",
+    "package.json"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
+  },
+  "dependencies": {
+    "lodash.has": "^4.5.2",
+    "luxon": "1.15.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "debug": "^4.1.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "strip-ansi": "=3.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "resolutions": {
+    "ajv": "6.8.1"
+  }
+}
