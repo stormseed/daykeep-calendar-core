@@ -1,18 +1,20 @@
 {
-  "name": "daykeep-calendar-core",
-  "version": "1.0.0-beta.1",
-  "productName": "Daykeep Calendar",
+  "name": "@daykeep/calendar-core",
+  "version": "1.0.0-beta.2",
+  "productName": "Daykeep calendar core",
   "description": "A full display calendar for multiple Vue.js frameworks",
   "keywords": [
     "vue",
-    "calendar"
+    "calendar",
+    "quasar",
+    "bootstrap"
   ],
-  "bugs": "https://github.com/stormseed/quasar-calendar/issues",
+  "bugs": "https://github.com/stormseed/daykeep-calendar-core/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stormseed/quasar-calendar.git"
+    "url": "https://github.com/stormseed/daykeep-calendar-core.git"
   },
-  "homepage": "https://github.com/stormseed/quasar-calendar",
+  "homepage": "https://github.com/stormseed/daykeep-calendar-core",
   "author": "Chris Benjamin <cbenjamin@stormseed.com>",
   "license": "MIT",
   "main": "component/index.js",
