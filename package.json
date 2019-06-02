@@ -18,22 +18,9 @@
   "author": "Chris Benjamin <cbenjamin@stormseed.com>",
   "license": "MIT",
   "main": "component/index.js",
-  "files": [
-    "component/index.js",
-    "component/calendar/*js",
-    "component/calendar/*vue",
-    "component/calendar/*styl",
-    "demo/mixins/*js",
-    "demo/index.js",
-    "package.json",
-    "readme.md"
-  ],
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev",
-    "build": "quasar build",
-    "build:pwa": "quasar build -m pwa"
   },
   "dependencies": {
     "lodash.has": "^4.5.2",

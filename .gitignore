@@ -11,3 +11,5 @@ cordova
 debug.log
 yarn.lock
 package-lock.json
+babel.config.js
+.postcssrc.js
