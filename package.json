@@ -1,6 +1,6 @@
 {
   "name": "@daykeep/calendar-core",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "productName": "Daykeep calendar core",
   "description": "A full display calendar for multiple Vue.js frameworks",
   "keywords": [
@@ -23,8 +23,10 @@
     "component/calendar/*js",
     "component/calendar/*vue",
     "component/calendar/*styl",
-    "demo/mixins/index.js",
-    "package.json"
+    "demo/mixins/*js",
+    "demo/index.js",
+    "package.json",
+    "readme.md"
   ],
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
