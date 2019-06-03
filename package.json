@@ -1,6 +1,6 @@
 {
   "name": "@daykeep/calendar-core",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "productName": "Daykeep calendar core",
   "description": "A full display calendar for multiple Vue.js frameworks",
   "keywords": [
@@ -17,10 +17,17 @@
   "homepage": "https://github.com/stormseed/daykeep-calendar-core",
   "author": "Chris Benjamin <cbenjamin@stormseed.com>",
   "license": "MIT",
-  "main": "component/index.js",
+  "files": [
+    "component",
+    "demo",
+    "package.json",
+    "export.js"
+  ],
+  "main": "export.js",
+  "module": "export.js",
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "lodash.has": "^4.5.2",
