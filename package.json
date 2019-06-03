@@ -21,7 +21,9 @@
     "component",
     "demo",
     "package.json",
-    "export.js"
+    "export.js",
+    "readme.md",
+    "LICENSE"
   ],
   "main": "export.js",
   "module": "export.js",
