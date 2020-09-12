@@ -208,6 +208,7 @@ export default {
     },
     moveTimePeriod: function (params) {
       console.debug('moveTimePeriod triggered, params = ', params)
+      this.$root.$emit('calendarDateChanged', params)
       if (dashHas(params, 'absolute')) {
         this.workingDate = this.makeDT(params.absolute)
       }
