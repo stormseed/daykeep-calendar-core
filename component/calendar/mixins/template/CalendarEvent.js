@@ -27,7 +27,7 @@ export default {
         // 'color': this.textColor
         
         // staff color 
-        'background-color': this.eventObject.staff_color,
+        //'background-color': this.eventObject.staff_color,
       }
     },
     getEventClass: function () {
