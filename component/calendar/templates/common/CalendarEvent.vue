@@ -24,6 +24,9 @@
       <div class="calendar-event-summary">
         {{ eventObject.summary }}
       </div>
+      <div class="color_badge" v-for="(c,index) of eventObject.staff_colors" :key="index"
+          style="width: 15px; height: 15px; margin-left: 6px; border: #FFF 1px solid; border-radius: 50%; display: inline-block; margin-right: 5px;"
+          :style="{backgroundColor: c}">&nbsp;</div>
       <div class="calendar-event-time">
         {{ formatTimeRange(eventObject.start.dateObject, eventObject.end.dateObject) }}
       </div>
